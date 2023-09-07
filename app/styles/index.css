@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.floatMenu{
+    background-color: aliceblue;
+    width: fit-content;
+    padding: 0.4rem 1rem;
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    z-index: 1000;
+    transform: translateX(-50%);
+    & > button{
+        margin: 0 1rem;
+    }
+}
+.pageContainer{
+    width: 300%;
+    position: absolute;
+    top:0;
+    left: 0;
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.page{
+    margin-top: 4rem;
+    width: 100%;
+    min-height: 100vh;
+}
