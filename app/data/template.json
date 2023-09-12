@@ -1,0 +1,13 @@
+{
+    "62 233 98":[{
+        // "name":"rose red",
+        "names":[{"Pantone":"C 032921","Crayola":"litle red","Web color":"red"}],
+        "tags":["red","hot","light","bright"],
+        "values":[{
+            "hex":"2f2f2f",
+            "rgb":[{"r":62,"g":233,"b":98}],
+            "hsl":[{"h":4,"s":82,"l":56}],
+            "cmtk":[{"c":0,"m":87,"y":87,"k":13}],
+        }],
+    }],
+}
