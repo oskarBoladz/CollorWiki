@@ -12,3 +12,9 @@ console.log(page.offsetWidth)
 pageChange=(val)=>{
     document.getElementById("pageContainer").style.transform="translateX(-"+val*page.offsetWidth+"px)"
 }
+queryString = window.location.search;
+urlParams = new URLSearchParams(queryString);
+
+urlParams.append('size', 'xl');
+console.log(urlParams.get('size'))
+console.log(document.URL)
