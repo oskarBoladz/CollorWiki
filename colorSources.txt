@@ -1,0 +1,3 @@
+rgb: r g b 
+hex hex 
+hsl h s l  
