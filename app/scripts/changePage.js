@@ -8,13 +8,14 @@
 // });
 page = document.getElementsByClassName('page');
 page = page[0];
-console.log(page.offsetWidth)
+// console.log(page.offsetWidth)
 pageChange=(val)=>{
     document.getElementById("pageContainer").style.transform="translateX(-"+val*page.offsetWidth+"px)"
 }
-queryString = window.location.search;
-urlParams = new URLSearchParams(queryString);
+// queryString = window.location.search;
+// urlParams = new URLSearchParams(queryString);
 
-urlParams.append('size', 'xl');
-console.log(urlParams.get('size'))
-console.log(document.URL)
+// urlParams.append('size', 'xl');
+// console.log(urlParams.get('size'))
+// console.log(document.URL)
+
