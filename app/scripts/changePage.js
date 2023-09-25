@@ -4,7 +4,7 @@ pages = {"wiki":2,
         "picker":0,
         "color":-1,
         "pallet":-2};
-page=2;
+page=0;
 // document.getElementById("pageContainer").style.transform="translateX(-"+2*document.getElementsByClassName('page')[0].offsetWidth+"px)"
 pageChange =(e)=>{
     page = pages[e]

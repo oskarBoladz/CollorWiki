@@ -50,7 +50,30 @@ body{
     transition: transform 0.5s ease;
 }
 .page{
-    margin-top: 4rem;
+    padding: 6rem 5rem;
     width: 100%;
     min-height: 100vh;
+    background-color: aqua;
+    box-sizing: border-box;
+
+}
+.colorPickerPage{
+    width: 100%;
+    height: calc(100vh - 10rem);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+
+    
+}
+.rightU{
+
+}
+.leftU{
+    
+}
+.bottom{
+    grid-column: 1/3;
 }
