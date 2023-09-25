@@ -1,0 +1,11 @@
+@media screen and (max-width: 620px) {
+    body{
+        background-color: red;
+    }
+    .floatMenu{
+        display: inline-flex;
+        top: 0px;
+        padding-top:0.5rem;
+        border-radius: 0 0 0.5rem 0.5rem;
+    }
+}

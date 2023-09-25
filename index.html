@@ -6,17 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ColorWiki</title>
     <link rel="stylesheet" href="./app/styles/index.css">
+    <link rel="stylesheet" href="./app/styles/mediaIndex.css">
     <!-- <script type="module" src="./app/scripts/modules/colorModule.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js" integrity="sha512-zInFF17qBFVvvvFpIfeBzo7Tj7+rQxLeTJDmbxjBz5/zIr89YVbTNelNhdTT+/DCrxoVzBeUPVFJsczKbB7sew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./app/scripts/modules/colorModule.js"></script>
 </head>
 <body>
-    <div class="floatMenu"><button class="pageChanger" value="0" onclick="pageChange(this.value)">A</button><button class="pageChanger" value="1" onclick="pageChange(this.value)"">B</button><button class="pageChanger" value="2" onclick="pageChange(this.value)">C</button></div>
-    <div class="pageContainer" id="pageContainer">
-    <div class="page"><h1>a</h1>
+    <div class="floatMenu">
+        <button class="pageChanger" value="wiki" onclick="pageChange(this.value)">Wiki</button>
+        <button class="pageChanger" value="ui" onclick="pageChange(this.value)">UI tester</button>
+        <button class="pageChanger" value="picker" onclick="pageChange(this.value)">Color picker</button>
+        <button class="pageChanger" value="color" onclick="pageChange(this.value)">Colors</button>
+        <button class="pageChanger" value="pallet" onclick="pageChange(this.value)">Pallets</button>
     </div>
+
+
+    <div class="pageContainer" id="pageContainer">
+    <div class="page"><h1>a</h1></div>
     <div class="page"><h1>b</h1></div>
     <div class="page"><h1>c</h1></div>
+    <div class="page"><h1>d</h1></div>
+    <div class="page"><h1>e</h1></div>
     </div>
 <script src="./app/scripts/changePage.js"></script>
 <script type="module" src="./app/scripts/colorstest.js"></script>

@@ -1,21 +1,16 @@
-// btn=document.getElementsByClassName("pageChanger")
 
-// Array.prototype.forEach.call(btn, function(e) {
-//     console.log(e.value)
-//     e.onclick =()=>{
-//         console.log("dsa")
-//     }
-// });
-page = document.getElementsByClassName('page');
-page = page[0];
-// console.log(page.offsetWidth)
-pageChange=(val)=>{
-    document.getElementById("pageContainer").style.transform="translateX(-"+val*page.offsetWidth+"px)"
+pages = {"wiki":0,
+        "ui":1,
+        "picker":2,
+        "color":3,
+        "pallet":4};
+page=2;
+document.getElementById("pageContainer").style.transform="translateX(-"+2*document.getElementsByClassName('page')[0].offsetWidth+"px)"
+pageChange =(e)=>{
+    page = pages[e]
+    // console.log(val*document.getElementsByClassName('page')[0].offsetWidth)
+    document.getElementById("pageContainer").style.transform="translateX(-"+page*document.getElementsByClassName('page')[0].offsetWidth+"px)"
 }
-// queryString = window.location.search;
-// urlParams = new URLSearchParams(queryString);
-
-// urlParams.append('size', 'xl');
-// console.log(urlParams.get('size'))
-// console.log(document.URL)
-
+onresize = (event) => {
+    document.getElementById("pageContainer").style.transform="translateX(-"+page*document.getElementsByClassName('page')[0].offsetWidth+"px)"
+};
