@@ -1,12 +1,16 @@
 @media screen and (max-width: 620px) {
-    body{
-        background-color: red;
+    
+    .page{
+        padding: 5rem 0;
     }
     .floatMenu{
         display: inline-flex;
         top: 0px;
         padding-top:0.5rem;
         border-radius: 0 0 0.5rem 0.5rem;
+        & img{
+            width: 2rem;
+        }
        
     }
     .iBtn{

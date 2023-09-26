@@ -44,3 +44,34 @@ class page {
 
 
 page = new page(document.getElementById("pageContainer"),document.getElementsByClassName('page')[0])
+
+
+
+
+                  
+            </div>
+            <div class="rightU"></div>
+
+
+            <!--  -->
+            <!-- <div class="pickerDiv">
+                    <div id="hsl" class="picker">
+                        <label for="h">h</label><input type="number" name="h" id="" class="miniInput">
+                        <label for="s">s</label><input type="number" name="s" id="" class="miniInput">
+                        <label for="l">l</label><input type="number" name="l" id="" class="miniInput">
+                        <button><img src="./app/images/ui/copy.svg"></button>
+                    </div>
+                    <div id="rgb" class="picker">
+                        <label for="r">r</label><input type="number" name="r" id="" class="miniInput">
+                        <label for="g">g</label><input type="number" name="g" id="" class="miniInput">
+                        <label for="b">b</label><input type="number" name="b" id="" class="miniInput">
+                        <button><img src="./app/images/ui/copy.svg"></button>
+                    </div>
+                    <div id="hex" class="picker">
+                        <label for="hex">hex</label><input type="number" name="hex" id="" class="mediumInput">
+                        <button><img src="./app/images/ui/copy.svg"></button>
+                    </div>
+                    <input type="color" name="" id="">
+                    
+                </div> -->
+                <!--  -->

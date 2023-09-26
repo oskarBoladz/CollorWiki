@@ -7,6 +7,7 @@
     <title>ColorWiki</title>
     <link rel="stylesheet" href="./app/styles/index.css">
     <link rel="stylesheet" href="./app/styles/mediaIndex.css">
+    <link rel="stylesheet" href="./app/styles/colorPicker.css">
     <!-- <script type="module" src="./app/scripts/modules/colorModule.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chroma-js/2.4.2/chroma.min.js" integrity="sha512-zInFF17qBFVvvvFpIfeBzo7Tj7+rQxLeTJDmbxjBz5/zIr89YVbTNelNhdTT+/DCrxoVzBeUPVFJsczKbB7sew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./app/scripts/modules/colorModule.js"></script>
@@ -33,9 +34,46 @@
     <div class="page"><h1>b</h1></div>
     <div class="page">
         <div class="colorPickerPage">
-            <div class="leftU"></div>
-            <div class="rightU"></div>
-            <div class="bottom"></div>
+
+                <div class="columnL">
+                    <div class="weelColor"></div>
+                    <div class="weelPicker">
+                        <div id="hsl" class="picker">
+                            <label for="h">h</label><input type="number" name="h" id="" class="miniInput">
+                            <label for="s">s</label><input type="number" name="s" id="" class="miniInput">
+                            <label for="l">l</label><input type="number" name="l" id="" class="miniInput">
+                            <button><img src="./app/images/ui/copy.svg"></button>
+                        </div>
+                        <div id="rgb" class="picker">
+                            <label for="r">r</label><input type="number" name="r" id="" class="miniInput">
+                            <label for="g">g</label><input type="number" name="g" id="" class="miniInput">
+                            <label for="b">b</label><input type="number" name="b" id="" class="miniInput">
+                            <button><img src="./app/images/ui/copy.svg"></button>
+                        </div>
+                        <div id="hex" class="picker">
+                            <label for="hex">hex</label><input type="number" name="hex" id="" class="mediumInput">
+                            <button><img src="./app/images/ui/copy.svg"></button>
+                        </div>
+                        <input type="color" name="" id="">
+                        
+                    </div>
+                </div>
+
+                <div class="columnR">
+                    <div class="weelName">
+                        <p>Pantone: 32324C2</p>
+                        <p>Brightnes: 32%</p>
+                        <p>Luminance: 2%</p>
+                    </div>
+                    <div class="weelGradients">
+                        <div class="weelGradient">d</div>
+                        <div class="weelGradient">s</div>
+                        <div class="weelGradient">s</div>
+                        <div class="weelGradient">s</div>
+                    </div>
+                </div>
+                
+
         </div>
     </div>
     <div class="page"><h1>d</h1></div>
