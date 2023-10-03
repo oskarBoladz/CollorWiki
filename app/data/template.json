@@ -13,3 +13,19 @@
         "name":{"pantone":"321123"}
     }
 }
+
+{
+    "4 82 56":{
+        "names":{"Craola":"red","Pantone":"C123321"},
+        "tags":["woarm","cold"]
+    }
+}
+
+{
+    "Pantone":{
+        "tags":["warm","hallowen","dark"],
+        "colors":[
+            "12 43 32","200 82 12"
+        ]
+    }
+}
