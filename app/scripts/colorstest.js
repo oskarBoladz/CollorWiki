@@ -1,5 +1,5 @@
 // import Car from "./modules/colorModule.js"
-let color = new ColorConverter()
+// let color = new ColorConverter()
 console.log(color.getValues({"rgb":{"r":200,"g":20,"b":50}}))
 console.log(color.getValues({"hsl":{"h":350,"s":81.8182,"l":43.1373}}))
 console.log(color.getValues({"hex":"c81432"}))

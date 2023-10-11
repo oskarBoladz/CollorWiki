@@ -5,7 +5,14 @@ body{
     overflow-x: hidden;
     font-family: 'Roboto', sans-serif;
 }
-
+.testCube{
+    width: 20px;
+    height:20px;
+    float:left;
+}
+.cubes{
+    padding:0.8rem 1rem;
+}
 .floatMenu{
     /* background-color: aliceblue; */
     width: fit-content;

@@ -1,4 +1,4 @@
-
+let color = new ColorConverter()
 pages = {"wiki":2,
         "ui":1,
         "picker":0,

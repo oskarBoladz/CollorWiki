@@ -45,21 +45,21 @@
                             <button><img src="./app/images/ui/copy.svg"></button>
                         </div>
                         <div id="rgb" class="picker">
-                            <label for="r">r</label><input type="number" name="r" id="" class="miniInput">
-                            <label for="g">g</label><input type="number" name="g" id="" class="miniInput">
-                            <label for="b">b</label><input type="number" name="b" id="" class="miniInput">
+                            <label for="r">r</label><input type="number" name="r" id="rRgbInput" class="miniInput">
+                            <label for="g">g</label><input type="number" name="g" id="gRgbInput" class="miniInput">
+                            <label for="b">b</label><input type="number" name="b" id="bRgbInput" class="miniInput">
                             <button><img src="./app/images/ui/copy.svg"></button>
                         </div>
                         <div id="hex" class="picker">
                             <label for="hex">hex</label><input type="number" name="hex" id="" class="mediumInput">
                             <button><img src="./app/images/ui/copy.svg"></button>
                         </div>
-                        <input type="color" name="" id="">
+                        <input type="color" name="" id="colorPickerInput">
                         
                     </div>
                 </div>
 
-                <div class="columnR">
+                <div class="columnR" >
                     <div class="weelName">
                         <p>Pantone: 32324C2</p>
                         <p>Brightnes: 32%</p>
@@ -71,6 +71,10 @@
                         <div class="weelGradient">s</div>
                         <div class="weelGradient">s</div>
                     </div>
+                    <div class="cubes" id="cubes">
+
+                    </div>
+
                 </div>
                 
 
@@ -81,6 +85,7 @@
     </div>
 <script src="./app/scripts/changePage.js"></script>
 <script src="./app/scripts/test.js"></script>
-<script type="module" src="./app/scripts/colorstest.js"></script>
+<script src="./app/scripts/colorPickerScript.js"></script>
+<script src="./app/scripts/colorstest.js"></script>
 </body>
 </html>
