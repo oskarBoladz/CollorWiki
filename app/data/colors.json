@@ -13852,5 +13852,847 @@
             "Pantone": "rain-forest"
         },
         "tags": []
+    },
+    "000000": {
+        "name": {
+            "Web colors": "black"
+        },
+        "tags": []
+    },
+    "C0C0C0": {
+        "name": {
+            "Web colors": "silver"
+        },
+        "tags": []
+    },
+    "808080": {
+        "name": {
+            "Web colors": "gray"
+        },
+        "tags": []
+    },
+
+    "FFFFFF": {
+        "name": {
+            "Web colors": "white"
+        },
+        "tags": []
+    },
+    "800000": {
+        "name": {
+            "Web colors": "maroon"
+        },
+        "tags": []
+    },
+    "FF0000": {
+        "name": {
+            "Web colors": "red"
+        },
+        "tags": []
+    },
+    "800080": {
+        "name": {
+            "Web colors": "purple"
+        },
+        "tags": []
+    },
+
+    "008000": {
+        "name": {
+            "Web colors": "green"
+        },
+        "tags": []
+    },
+    "00FF00": {
+        "name": {
+            "Web colors": "lime"
+        },
+        "tags": []
+    },
+    "808000": {
+        "name": {
+            "Web colors": "olive"
+        },
+        "tags": []
+    },
+    "FFFF00": {
+        "name": {
+            "Web colors": "yellow"
+        },
+        "tags": []
+    },
+    "000080": {
+        "name": {
+            "Web colors": "navy"
+        },
+        "tags": []
+    },
+    "0000FF": {
+        "name": {
+            "Web colors": "blue"
+        },
+        "tags": []
+    },
+    "008080": {
+        "name": {
+            "Web colors": "teal"
+        },
+        "tags": []
+    },
+    "00008B": {
+        "name": {
+            "Web colors": "darkblue"
+        },
+        "tags": []
+    },
+    "0000CD": {
+        "name": {
+            "Web colors": "mediumblue"
+        },
+        "tags": []
+    },
+    "006400": {
+        "name": {
+            "Web colors": "darkgreen"
+        },
+        "tags": []
+    },
+    "008B8B": {
+        "name": {
+            "Web colors": "darkcyan"
+        },
+        "tags": []
+    },
+    "00BFFF": {
+        "name": {
+            "Web colors": "deepskyblue"
+        },
+        "tags": []
+    },
+    "00CED1": {
+        "name": {
+            "Web colors": "darkturquoise"
+        },
+        "tags": []
+    },
+    "00FA9A": {
+        "name": {
+            "Web colors": "mediumspringgreen"
+        },
+        "tags": []
+    },
+    "00FF7F": {
+        "name": {
+            "Web colors": "springgreen"
+        },
+        "tags": []
+    },
+    "00FFFF": {
+        "name": {
+            "Web colors": ["cyan","aqua"]
+        },
+        "tags": []
+    },
+    "191970": {
+        "name": {
+            "Web colors": "midnightblue"
+        },
+        "tags": []
+    },
+    "1E90FF": {
+        "name": {
+            "Web colors": "dodgerblue"
+        },
+        "tags": []
+    },
+    "20B2AA": {
+        "name": {
+            "Web colors": "lightseagreen"
+        },
+        "tags": []
+    },
+    "228B22": {
+        "name": {
+            "Web colors": "forestgreen"
+        },
+        "tags": []
+    },
+    "2E8B57": {
+        "name": {
+            "Web colors": "seagreen"
+        },
+        "tags": []
+    },
+    "2F4F4F": {
+        "name": {
+            "Web colors": "darkslategray"
+        },
+        "tags": []
+    },
+
+    "32CD32": {
+        "name": {
+            "Web colors": "limegreen"
+        },
+        "tags": []
+    },
+    "3CB371": {
+        "name": {
+            "Web colors": "mediumseagreen"
+        },
+        "tags": []
+    },
+    "40E0D0": {
+        "name": {
+            "Web colors": "turquoise"
+        },
+        "tags": []
+    },
+    "4169E1": {
+        "name": {
+            "Web colors": "royalblue"
+        },
+        "tags": []
+    },
+    "4682B4": {
+        "name": {
+            "Web colors": "steelblue"
+        },
+        "tags": []
+    },
+    "483D8B": {
+        "name": {
+            "Web colors": "darkslateblue"
+        },
+        "tags": []
+    },
+    "48D1CC": {
+        "name": {
+            "Web colors": "mediumturquoise"
+        },
+        "tags": []
+    },
+    "4B0082": {
+        "name": {
+            "Web colors": "indigo"
+        },
+        "tags": []
+    },
+    "556B2F": {
+        "name": {
+            "Web colors": "darkolivegreen"
+        },
+        "tags": []
+    },
+    "5F9EA0": {
+        "name": {
+            "Web colors": "cadetblue"
+        },
+        "tags": []
+    },
+    "6495ED": {
+        "name": {
+            "Web colors": "cornflowerblue"
+        },
+        "tags": []
+    },
+    "663399": {
+        "name": {
+            "Web colors": "rebeccapurple"
+        },
+        "tags": []
+    },
+    "66CDAA": {
+        "name": {
+            "Web colors": "mediumaquamarine"
+        },
+        "tags": []
+    },
+    "696969": {
+        "name": {
+            "Web colors": "dimgray"
+        },
+        "tags": []
+    },
+
+    "6A5ACD": {
+        "name": {
+            "Web colors": "slateblue"
+        },
+        "tags": []
+    },
+    "6B8E23": {
+        "name": {
+            "Web colors": "olivedrab"
+        },
+        "tags": []
+    },
+    "708090": {
+        "name": {
+            "Web colors": "slategray"
+        },
+        "tags": []
+    },
+
+    "778899": {
+        "name": {
+            "Web colors": "lightslategray"
+        },
+        "tags": []
+    },
+
+    "7B68EE": {
+        "name": {
+            "Web colors": "mediumslateblue"
+        },
+        "tags": []
+    },
+    "7CFC00": {
+        "name": {
+            "Web colors": "lawngreen"
+        },
+        "tags": []
+    },
+    "7FFF00": {
+        "name": {
+            "Web colors": "chartreuse"
+        },
+        "tags": []
+    },
+    "7FFFD4": {
+        "name": {
+            "Web colors": "aquamarine"
+        },
+        "tags": []
+    },
+    "87CEEB": {
+        "name": {
+            "Web colors": "skyblue"
+        },
+        "tags": []
+    },
+    "87CEFA": {
+        "name": {
+            "Web colors": "lightskyblue"
+        },
+        "tags": []
+    },
+    "8A2BE2": {
+        "name": {
+            "Web colors": "blueviolet"
+        },
+        "tags": []
+    },
+    "8B0000": {
+        "name": {
+            "Web colors": "darkred"
+        },
+        "tags": []
+    },
+    "8B008B": {
+        "name": {
+            "Web colors": "darkmagenta"
+        },
+        "tags": []
+    },
+    "8B4513": {
+        "name": {
+            "Web colors": "saddlebrown"
+        },
+        "tags": []
+    },
+    "8FBC8F": {
+        "name": {
+            "Web colors": "darkseagreen"
+        },
+        "tags": []
+    },
+    "90EE90": {
+        "name": {
+            "Web colors": "lightgreen"
+        },
+        "tags": []
+    },
+    "9370DB": {
+        "name": {
+            "Web colors": "mediumpurple"
+        },
+        "tags": []
+    },
+    "9400D3": {
+        "name": {
+            "Web colors": "darkviolet"
+        },
+        "tags": []
+    },
+    "98FB98": {
+        "name": {
+            "Web colors": "palegreen"
+        },
+        "tags": []
+    },
+    "9932CC": {
+        "name": {
+            "Web colors": "darkorchid"
+        },
+        "tags": []
+    },
+    "9ACD32": {
+        "name": {
+            "Web colors": "yellowgreen"
+        },
+        "tags": []
+    },
+    "A0522D": {
+        "name": {
+            "Web colors": "sienna"
+        },
+        "tags": []
+    },
+    "A52A2A": {
+        "name": {
+            "Web colors": "brown"
+        },
+        "tags": []
+    },
+    "A9A9A9": {
+        "name": {
+            "Web colors": "darkgray"
+        },
+        "tags": []
+    },
+
+    "ADD8E6": {
+        "name": {
+            "Web colors": "lightblue"
+        },
+        "tags": []
+    },
+    "ADFF2F": {
+        "name": {
+            "Web colors": "greenyellow"
+        },
+        "tags": []
+    },
+    "AFEEEE": {
+        "name": {
+            "Web colors": "paleturquoise"
+        },
+        "tags": []
+    },
+    "B0C4DE": {
+        "name": {
+            "Web colors": "lightsteelblue"
+        },
+        "tags": []
+    },
+    "B0E0E6": {
+        "name": {
+            "Web colors": "powderblue"
+        },
+        "tags": []
+    },
+    "B22222": {
+        "name": {
+            "Web colors": "firebrick"
+        },
+        "tags": []
+    },
+    "B8860B": {
+        "name": {
+            "Web colors": "darkgoldenrod"
+        },
+        "tags": []
+    },
+    "BA55D3": {
+        "name": {
+            "Web colors": "mediumorchid"
+        },
+        "tags": []
+    },
+    "BC8F8F": {
+        "name": {
+            "Web colors": "rosybrown"
+        },
+        "tags": []
+    },
+    "BDB76B": {
+        "name": {
+            "Web colors": "darkkhaki"
+        },
+        "tags": []
+    },
+    "C71585": {
+        "name": {
+            "Web colors": "mediumvioletred"
+        },
+        "tags": []
+    },
+    "CD5C5C": {
+        "name": {
+            "Web colors": "indianred"
+        },
+        "tags": []
+    },
+    "CD853F": {
+        "name": {
+            "Web colors": "peru"
+        },
+        "tags": []
+    },
+    "D2691E": {
+        "name": {
+            "Web colors": "chocolate"
+        },
+        "tags": []
+    },
+    "D2B48C": {
+        "name": {
+            "Web colors": "tan"
+        },
+        "tags": []
+    },
+    "D3D3D3": {
+        "name": {
+            "Web colors": "lightgray"
+        },
+        "tags": []
+    },
+
+    "D8BFD8": {
+        "name": {
+            "Web colors": "thistle"
+        },
+        "tags": []
+    },
+    "DA70D6": {
+        "name": {
+            "Web colors": "orchid"
+        },
+        "tags": []
+    },
+    "DAA520": {
+        "name": {
+            "Web colors": "goldenrod"
+        },
+        "tags": []
+    },
+    "DB7093": {
+        "name": {
+            "Web colors": "palevioletred"
+        },
+        "tags": []
+    },
+    "DC143C": {
+        "name": {
+            "Web colors": "crimson"
+        },
+        "tags": []
+    },
+    "DCDCDC": {
+        "name": {
+            "Web colors": "gainsboro"
+        },
+        "tags": []
+    },
+    "DDA0DD": {
+        "name": {
+            "Web colors": "plum"
+        },
+        "tags": []
+    },
+    "DEB887": {
+        "name": {
+            "Web colors": "burlywood"
+        },
+        "tags": []
+    },
+    "E0FFFF": {
+        "name": {
+            "Web colors": "lightcyan"
+        },
+        "tags": []
+    },
+    "E6E6FA": {
+        "name": {
+            "Web colors": "lavender"
+        },
+        "tags": []
+    },
+    "E9967A": {
+        "name": {
+            "Web colors": "darksalmon"
+        },
+        "tags": []
+    },
+    "EE82EE": {
+        "name": {
+            "Web colors": "violet"
+        },
+        "tags": []
+    },
+    "EEE8AA": {
+        "name": {
+            "Web colors": "palegoldenrod"
+        },
+        "tags": []
+    },
+    "F08080": {
+        "name": {
+            "Web colors": "lightcoral"
+        },
+        "tags": []
+    },
+    "F0E68C": {
+        "name": {
+            "Web colors": "khaki"
+        },
+        "tags": []
+    },
+    "F0F8FF": {
+        "name": {
+            "Web colors": "aliceblue"
+        },
+        "tags": []
+    },
+    "F0FFF0": {
+        "name": {
+            "Web colors": "honeydew"
+        },
+        "tags": []
+    },
+    "F0FFFF": {
+        "name": {
+            "Web colors": "azure"
+        },
+        "tags": []
+    },
+    "F4A460": {
+        "name": {
+            "Web colors": "sandybrown"
+        },
+        "tags": []
+    },
+    "F5DEB3": {
+        "name": {
+            "Web colors": "wheat"
+        },
+        "tags": []
+    },
+    "F5F5DC": {
+        "name": {
+            "Web colors": "beige"
+        },
+        "tags": []
+    },
+    "F5F5F5": {
+        "name": {
+            "Web colors": "whitesmoke"
+        },
+        "tags": []
+    },
+    "F5FFFA": {
+        "name": {
+            "Web colors": "mintcream"
+        },
+        "tags": []
+    },
+    "F8F8FF": {
+        "name": {
+            "Web colors": "ghostwhite"
+        },
+        "tags": []
+    },
+    "FA8072": {
+        "name": {
+            "Web colors": "salmon"
+        },
+        "tags": []
+    },
+    "FAEBD7": {
+        "name": {
+            "Web colors": "antiquewhite"
+        },
+        "tags": []
+    },
+    "FAF0E6": {
+        "name": {
+            "Web colors": "linen"
+        },
+        "tags": []
+    },
+    "FAFAD2": {
+        "name": {
+            "Web colors": "lightgoldenrodyellow"
+        },
+        "tags": []
+    },
+    "FDF5E6": {
+        "name": {
+            "Web colors": "oldlace"
+        },
+        "tags": []
+    },
+    "FF00FF": {
+        "name": {
+            "Web colors": ["magenta","fuchsia"]
+        },
+        "tags": []
+    },
+    "FF1493": {
+        "name": {
+            "Web colors": "deeppink"
+        },
+        "tags": []
+    },
+    "FF4500": {
+        "name": {
+            "Web colors": "orangered"
+        },
+        "tags": []
+    },
+    "FF6347": {
+        "name": {
+            "Web colors": "tomato"
+        },
+        "tags": []
+    },
+    "FF69B4": {
+        "name": {
+            "Web colors": "hotpink"
+        },
+        "tags": []
+    },
+    "FF7F50": {
+        "name": {
+            "Web colors": "coral"
+        },
+        "tags": []
+    },
+    "FF8C00": {
+        "name": {
+            "Web colors": "darkorange"
+        },
+        "tags": []
+    },
+    "FFA07A": {
+        "name": {
+            "Web colors": "lightsalmon"
+        },
+        "tags": []
+    },
+    "FFA500": {
+        "name": {
+            "Web colors": "orange"
+        },
+        "tags": []
+    },
+    "FFB6C1": {
+        "name": {
+            "Web colors": "lightpink"
+        },
+        "tags": []
+    },
+    "FFC0CB": {
+        "name": {
+            "Web colors": "pink"
+        },
+        "tags": []
+    },
+    "FFD700": {
+        "name": {
+            "Web colors": "gold"
+        },
+        "tags": []
+    },
+    "FFDAB9": {
+        "name": {
+            "Web colors": "peachpuff"
+        },
+        "tags": []
+    },
+    "FFDEAD": {
+        "name": {
+            "Web colors": "navajowhite"
+        },
+        "tags": []
+    },
+    "FFE4B5": {
+        "name": {
+            "Web colors": "moccasin"
+        },
+        "tags": []
+    },
+    "FFE4C4": {
+        "name": {
+            "Web colors": "bisque"
+        },
+        "tags": []
+    },
+    "FFE4E1": {
+        "name": {
+            "Web colors": "mistyrose"
+        },
+        "tags": []
+    },
+    "FFEBCD": {
+        "name": {
+            "Web colors": "blanchedalmond"
+        },
+        "tags": []
+    },
+    "FFEFD5": {
+        "name": {
+            "Web colors": "papayawhip"
+        },
+        "tags": []
+    },
+    "FFF0F5": {
+        "name": {
+            "Web colors": "lavenderblush"
+        },
+        "tags": []
+    },
+    "FFF5EE": {
+        "name": {
+            "Web colors": "seashell"
+        },
+        "tags": []
+    },
+    "FFF8DC": {
+        "name": {
+            "Web colors": "cornsilk"
+        },
+        "tags": []
+    },
+    "FFFACD": {
+        "name": {
+            "Web colors": "lemonchiffon"
+        },
+        "tags": []
+    },
+    "FFFAF0": {
+        "name": {
+            "Web colors": "floralwhite"
+        },
+        "tags": []
+    },
+    "FFFAFA": {
+        "name": {
+            "Web colors": "snow"
+        },
+        "tags": []
+    },
+    "FFFFE0": {
+        "name": {
+            "Web colors": "lightyellow"
+        },
+        "tags": []
+    },
+    "FFFFF0": {
+        "name": {
+            "Web colors": "ivory"
+        },
+        "tags": []
     }
 }

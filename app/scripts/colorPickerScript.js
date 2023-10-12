@@ -11,8 +11,8 @@
 document.getElementById("colorPickerInput").oninput=()=>{
     // console.log(document.getElementById("colorPickerInput").value,document.getElementById("colorPickerInput").value.slice(1,7))
     colorconv = color.getValues({"hex":document.getElementById("colorPickerInput").value.slice(1,7)})
-    console.log(colorconv)
-    colorconv = color.getValues({"hex":colorconv})
+    // console.log(colorconv)
+    // colorconv = color.getValues({"hex":colorconv})
     similar(colorconv)
 }
 // changeMainColor=()=>{}

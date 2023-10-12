@@ -22,9 +22,10 @@ createTile=(color)=>{
     div.style.backgroundColor="#"+color
     document.getElementById("cubes").appendChild(div)
 }
-bN=60
-sN=60
-similar=(color)=>{
+// bN=30
+// sN=45
+similar=(inputColor)=>{
+    // console.log(inputColor)
     parent=document.getElementById("cubes")
     while (parent.hasChildNodes()){
                parent.removeChild(parent.firstChild)
@@ -37,9 +38,32 @@ similar=(color)=>{
     //         valName=key
     //     }
     // }
-   
+//    console.log(inputColor)
+   wG=inputColor.hsl.h+26
+        wD=inputColor.hsl.h-26
+        // if(wG>360){
+        //     wG-=360
+        // }
+        // if(wD<0){
+        //     wD=360+wD
+        // }
     for (const [key, value] of Object.entries(table)) {
-        newColor // conv hex to hsl and check is color == color PRINT
+        keyHSL = color.getValues({"hex":key})
+        // console.log()
+        if(keyHSL.hsl.h<wG && keyHSL.hsl.h>wD){
+            
+            if(keyHSL.hsl.s>inputColor.hsl.s-40 && keyHSL.hsl.s<inputColor.hsl.s+40){
+
+                if(keyHSL.hsl.l>inputColor.hsl.l-20 && keyHSL.hsl.l<inputColor.hsl.l+20){
+                    createTile(key)
+                }
+            }
+        }
+        if(inputColor.hsl.l>=0 && inputColor.hsl.l < 7){
+
+        }
+        // newColor // conv hex to hsl and check is color == color PRINT
+
         // r=parseInt(key.slice(0, 2),16)
         // g=parseInt(key.slice(2, 4),16)
         // b=parseInt(key.slice(4, 7),16)
@@ -78,7 +102,7 @@ similar=(color)=>{
     }
    
 }
-similar(colorr)
+// similar(color.getValues(colorr))
 
 
 // .then(function(json){
