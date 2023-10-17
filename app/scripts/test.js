@@ -59,8 +59,14 @@ similar=(inputColor)=>{
                 }
             }
         }
-        if(inputColor.hsl.l>=0 && inputColor.hsl.l < 7){
+        if(inputColor.hsl.s>=0 && inputColor.hsl.s <= 7){
+            if(keyHSL.hsl.s>=0 && keyHSL.hsl.s < 7){
+                if(keyHSL.hsl.l >= inputColor.hsl.l-20 && keyHSL.hsl.l<= inputColor.hsl.l+20){
+                    createTile(key)
+                // console.log("dsa")
 
+                }
+            }
         }
         // newColor // conv hex to hsl and check is color == color PRINT
 

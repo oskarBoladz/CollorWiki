@@ -1,7 +1,0 @@
-ID: 1
-Marka: q
-Model: w
-Pojemnosc_silnika: 2
-Rok_produkcji: 23
-Cena: 123
-
