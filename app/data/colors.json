@@ -14534,9 +14534,7 @@
         "tags": []
     },
     "FF00FF": {
-        "name": {
-            "Web colors": ["magenta","fuchsia"]
-        },
+        "name": {"Web colors": "magenta","Other":"fuchsia"},
         "tags": []
     },
     "FF1493": {

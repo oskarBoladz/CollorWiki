@@ -16,11 +16,21 @@ getData()
 table=JSON.parse(localStorage.getItem('colors'));
 console.log(table)
 
-createTile=(color)=>{
+createTile=(color,name)=>{
+    document.getElementById("weelColor").innerHTML=""
     div=document.createElement("div")
     div.className="testCube"
     div.style.backgroundColor="#"+color
+    div.setAttribute("value", JSON.stringify(name))
+    div.onmouseover=()=>{
+        str=""
+        for (const [key, value] of Object.entries(name)) {
+            str+=key+": "+value+"\n"
+        }
+        document.getElementById("weelColor").innerHTML=str
+    }
     document.getElementById("cubes").appendChild(div)
+    
 }
 // bN=30
 // sN=45
@@ -55,14 +65,14 @@ similar=(inputColor)=>{
             if(keyHSL.hsl.s>inputColor.hsl.s-40 && keyHSL.hsl.s<inputColor.hsl.s+40){
 
                 if(keyHSL.hsl.l>inputColor.hsl.l-20 && keyHSL.hsl.l<inputColor.hsl.l+20){
-                    createTile(key)
+                    createTile(key,value["name"])
                 }
             }
         }
         if(inputColor.hsl.s>=0 && inputColor.hsl.s <= 7){
             if(keyHSL.hsl.s>=0 && keyHSL.hsl.s < 7){
                 if(keyHSL.hsl.l >= inputColor.hsl.l-20 && keyHSL.hsl.l<= inputColor.hsl.l+20){
-                    createTile(key)
+                    createTile(key,value["name"])
                 // console.log("dsa")
 
                 }
