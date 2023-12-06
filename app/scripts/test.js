@@ -14,7 +14,7 @@ function (response) {
 }
 getData()
 table=JSON.parse(localStorage.getItem('colors'));
-console.log(table)
+// console.log(table)
 
 createTile=(color,name)=>{
     document.getElementById("weelColor").innerHTML=""
