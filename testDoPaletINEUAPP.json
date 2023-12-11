@@ -1,0 +1,15 @@
+{
+    "palleteName":{
+        "company":"pantone",
+        "update":2023,
+        "type":"monochrome",
+        "tags":["warm","cold"],
+        "colors":{
+            "hex":{
+                "name":"pink",
+                "hsl":"dsa",
+                "rgb":"rgb"
+            }
+        }
+    }
+}
